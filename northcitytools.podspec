@@ -3,12 +3,20 @@ Pod::Spec.new do |s|
 s.name = "northcitytools"
 s.version = "0.0.1"
 s.license = "MIT"
-s.summary = "A ChannelListView with CollectionView by swift, it is like NetEaseNews Channel style."
-s.homepage = "https://github.com/hongqingWang/adsdadasda"
+s.summary = "Own independent development of the project required by the page display class, can facilitate the independent development of their own projects"
+s.homepage = "http://www.northcity.top/"
 s.author = { "northcity" => "506343891@qq.com" }
-s.source = { :git => "https://github.com/hongqingWang/adsdadasda.git", :tag => s.version }
+s.source = { :git => "https://github.com/northcity/northcitytools.git", :tag => s.version }
 
 s.ios.deployment_target = "9.0"
 
-s.source_files = "Source/*.swift"
+s.dependency 'SDWebImage'
+s.dependency 'YYModel'
+s.dependency 'Masonry'
+s.dependency 'BmobSDK'
+s.dependency 'SVProgressHUD'
+
+s.source_files = 'Classes/**/*.{h,m}'
+s.resources = 'Classes/*.{bundle}'
+
 end
