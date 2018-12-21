@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name = "northcitytools"
-s.version = "0.0.1"
+s.version = "0.0.2"
 s.license = "MIT"
 s.summary = "can facilitate the independent development of their own projects"
 s.homepage = "http://www.northcity.top/"
