@@ -16,7 +16,7 @@ s.dependency 'Masonry'
 s.dependency 'BmobSDK'
 s.dependency 'SVProgressHUD'
 
-s.source_files = 'Classes/**/*.{h,m}'
-s.resources = 'Classes/*.{bundle}'
+s.source_files = "Classes/**/*.{h,m}"
+s.resources = "Classes/*.{bundle}"
 
 end
