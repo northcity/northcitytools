@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A50B9A9F5AA9FCA3F0CD422 /* Pods_northcitytools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E4170A32FE9C44425A0235 /* Pods_northcitytools.framework */; };
+		1549769021CB5E8200A29910 /* BCAppModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1549768F21CB5E8200A29910 /* BCAppModel.m */; };
+		1549769421CB5F4C00A29910 /* BCAppViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1549769321CB5F4C00A29910 /* BCAppViewModel.m */; };
+		1549769721CB6E3500A29910 /* northcityBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1549769621CB6E3500A29910 /* northcityBundle.bundle */; };
+		F73D1ABA21C3847B0032AC1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F73D1AB921C3847B0032AC1A /* AppDelegate.m */; };
+		F73D1ABD21C3847B0032AC1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73D1ABC21C3847B0032AC1A /* ViewController.m */; };
+		F73D1AC021C3847B0032AC1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73D1ABE21C3847B0032AC1A /* Main.storyboard */; };
+		F73D1AC321C3847B0032AC1A /* northcitytools.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F73D1AC121C3847B0032AC1A /* northcitytools.xcdatamodeld */; };
+		F73D1AC521C3847C0032AC1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73D1AC421C3847C0032AC1A /* Assets.xcassets */; };
+		F73D1AC821C3847C0032AC1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73D1AC621C3847C0032AC1A /* LaunchScreen.storyboard */; };
+		F73D1ACB21C3847C0032AC1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F73D1ACA21C3847C0032AC1A /* main.m */; };
+		F73D1AD521C3847C0032AC1A /* northcitytoolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F73D1AD421C3847C0032AC1A /* northcitytoolsTests.m */; };
+		F73D1AE021C3847D0032AC1A /* northcitytoolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F73D1ADF21C3847D0032AC1A /* northcitytoolsUITests.m */; };
+		F73D1AEF21C385370032AC1A /* BCAboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73D1AEE21C385370032AC1A /* BCAboutMeViewController.m */; };
+		F73D1AFB21C3A1AD0032AC1A /* BCCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F73D1AFA21C3A1AD0032AC1A /* BCCardView.m */; };
+		F73D1AFE21C3A2CF0032AC1A /* BCAppTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F73D1AFD21C3A2CF0032AC1A /* BCAppTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F73D1AD121C3847C0032AC1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F73D1AAD21C3847B0032AC1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F73D1AB421C3847B0032AC1A;
+			remoteInfo = northcitytools;
+		};
+		F73D1ADC21C3847D0032AC1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F73D1AAD21C3847B0032AC1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F73D1AB421C3847B0032AC1A;
+			remoteInfo = northcitytools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1549768E21CB5E8200A29910 /* BCAppModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCAppModel.h; sourceTree = "<group>"; };
+		1549768F21CB5E8200A29910 /* BCAppModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCAppModel.m; sourceTree = "<group>"; };
+		1549769221CB5F4C00A29910 /* BCAppViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCAppViewModel.h; sourceTree = "<group>"; };
+		1549769321CB5F4C00A29910 /* BCAppViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCAppViewModel.m; sourceTree = "<group>"; };
+		1549769621CB6E3500A29910 /* northcityBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = northcityBundle.bundle; sourceTree = "<group>"; };
+		2D9424AAFE3C0B6030E022F3 /* Pods-northcitytools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-northcitytools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-northcitytools/Pods-northcitytools.debug.xcconfig"; sourceTree = "<group>"; };
+		552F58774E158BC77338C925 /* Pods-northcitytools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-northcitytools.release.xcconfig"; path = "Pods/Target Support Files/Pods-northcitytools/Pods-northcitytools.release.xcconfig"; sourceTree = "<group>"; };
+		C4E4170A32FE9C44425A0235 /* Pods_northcitytools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_northcitytools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73D1AB521C3847B0032AC1A /* northcitytools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = northcitytools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73D1AB821C3847B0032AC1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F73D1AB921C3847B0032AC1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F73D1ABB21C3847B0032AC1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F73D1ABC21C3847B0032AC1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F73D1ABF21C3847B0032AC1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F73D1AC221C3847B0032AC1A /* northcitytools.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = northcitytools.xcdatamodel; sourceTree = "<group>"; };
+		F73D1AC421C3847C0032AC1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F73D1AC721C3847C0032AC1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F73D1AC921C3847C0032AC1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F73D1ACA21C3847C0032AC1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F73D1AD021C3847C0032AC1A /* northcitytoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = northcitytoolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73D1AD421C3847C0032AC1A /* northcitytoolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = northcitytoolsTests.m; sourceTree = "<group>"; };
+		F73D1AD621C3847C0032AC1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F73D1ADB21C3847D0032AC1A /* northcitytoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = northcitytoolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F73D1ADF21C3847D0032AC1A /* northcitytoolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = northcitytoolsUITests.m; sourceTree = "<group>"; };
+		F73D1AE121C3847D0032AC1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F73D1AED21C385370032AC1A /* BCAboutMeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCAboutMeViewController.h; sourceTree = "<group>"; };
+		F73D1AEE21C385370032AC1A /* BCAboutMeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCAboutMeViewController.m; sourceTree = "<group>"; };
+		F73D1AF521C38A000032AC1A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F73D1AF621C38A000032AC1A /* HeaderDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderDefines.h; sourceTree = "<group>"; };
+		F73D1AF821C38F6F0032AC1A /* BCHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCHeader.h; sourceTree = "<group>"; };
+		F73D1AF921C3A1AD0032AC1A /* BCCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCCardView.h; sourceTree = "<group>"; };
+		F73D1AFA21C3A1AD0032AC1A /* BCCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCCardView.m; sourceTree = "<group>"; };
+		F73D1AFC21C3A2CF0032AC1A /* BCAppTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCAppTableViewCell.h; sourceTree = "<group>"; };
+		F73D1AFD21C3A2CF0032AC1A /* BCAppTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCAppTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F73D1AB221C3847B0032AC1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A50B9A9F5AA9FCA3F0CD422 /* Pods_northcitytools.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73D1ACD21C3847C0032AC1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73D1AD821C3847D0032AC1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1549768D21CB423F00A29910 /* BCAppModel */ = {
+			isa = PBXGroup;
+			children = (
+				1549768E21CB5E8200A29910 /* BCAppModel.h */,
+				1549768F21CB5E8200A29910 /* BCAppModel.m */,
+			);
+			path = BCAppModel;
+			sourceTree = "<group>";
+		};
+		1549769121CB5F3D00A29910 /* BCAppViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1549769221CB5F4C00A29910 /* BCAppViewModel.h */,
+				1549769321CB5F4C00A29910 /* BCAppViewModel.m */,
+			);
+			path = BCAppViewModel;
+			sourceTree = "<group>";
+		};
+		5DA2943577EDEF5DA209725F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4E4170A32FE9C44425A0235 /* Pods_northcitytools.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69F0CBF669F6C8CB92604EC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D9424AAFE3C0B6030E022F3 /* Pods-northcitytools.debug.xcconfig */,
+				552F58774E158BC77338C925 /* Pods-northcitytools.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F73D1AAC21C3847B0032AC1A = {
+			isa = PBXGroup;
+			children = (
+				F73D1AB721C3847B0032AC1A /* northcitytools */,
+				F73D1AD321C3847C0032AC1A /* northcitytoolsTests */,
+				F73D1ADE21C3847D0032AC1A /* northcitytoolsUITests */,
+				F73D1AB621C3847B0032AC1A /* Products */,
+				69F0CBF669F6C8CB92604EC4 /* Pods */,
+				5DA2943577EDEF5DA209725F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F73D1AB621C3847B0032AC1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F73D1AB521C3847B0032AC1A /* northcitytools.app */,
+				F73D1AD021C3847C0032AC1A /* northcitytoolsTests.xctest */,
+				F73D1ADB21C3847D0032AC1A /* northcitytoolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F73D1AB721C3847B0032AC1A /* northcitytools */ = {
+			isa = PBXGroup;
+			children = (
+				F73D1AB821C3847B0032AC1A /* AppDelegate.h */,
+				F73D1AB921C3847B0032AC1A /* AppDelegate.m */,
+				F73D1AF021C386180032AC1A /* BCAboutMeViewController */,
+				F73D1AF421C38A000032AC1A /* BCDefineHeaders */,
+				F73D1ABB21C3847B0032AC1A /* ViewController.h */,
+				F73D1ABC21C3847B0032AC1A /* ViewController.m */,
+				F73D1ABE21C3847B0032AC1A /* Main.storyboard */,
+				F73D1AC421C3847C0032AC1A /* Assets.xcassets */,
+				F73D1AC621C3847C0032AC1A /* LaunchScreen.storyboard */,
+				F73D1AC921C3847C0032AC1A /* Info.plist */,
+				F73D1ACA21C3847C0032AC1A /* main.m */,
+				F73D1AC121C3847B0032AC1A /* northcitytools.xcdatamodeld */,
+			);
+			path = northcitytools;
+			sourceTree = "<group>";
+		};
+		F73D1AD321C3847C0032AC1A /* northcitytoolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F73D1AD421C3847C0032AC1A /* northcitytoolsTests.m */,
+				F73D1AD621C3847C0032AC1A /* Info.plist */,
+			);
+			path = northcitytoolsTests;
+			sourceTree = "<group>";
+		};
+		F73D1ADE21C3847D0032AC1A /* northcitytoolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F73D1ADF21C3847D0032AC1A /* northcitytoolsUITests.m */,
+				F73D1AE121C3847D0032AC1A /* Info.plist */,
+			);
+			path = northcitytoolsUITests;
+			sourceTree = "<group>";
+		};
+		F73D1AF021C386180032AC1A /* BCAboutMeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1549769621CB6E3500A29910 /* northcityBundle.bundle */,
+				1549769121CB5F3D00A29910 /* BCAppViewModel */,
+				1549768D21CB423F00A29910 /* BCAppModel */,
+				F73D1AED21C385370032AC1A /* BCAboutMeViewController.h */,
+				F73D1AEE21C385370032AC1A /* BCAboutMeViewController.m */,
+				F73D1AFC21C3A2CF0032AC1A /* BCAppTableViewCell.h */,
+				F73D1AFD21C3A2CF0032AC1A /* BCAppTableViewCell.m */,
+				F73D1AF921C3A1AD0032AC1A /* BCCardView.h */,
+				F73D1AFA21C3A1AD0032AC1A /* BCCardView.m */,
+			);
+			path = BCAboutMeViewController;
+			sourceTree = "<group>";
+		};
+		F73D1AF421C38A000032AC1A /* BCDefineHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				F73D1AF521C38A000032AC1A /* PrefixHeader.pch */,
+				F73D1AF621C38A000032AC1A /* HeaderDefines.h */,
+				F73D1AF821C38F6F0032AC1A /* BCHeader.h */,
+			);
+			path = BCDefineHeaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F73D1AB421C3847B0032AC1A /* northcitytools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F73D1AE421C3847D0032AC1A /* Build configuration list for PBXNativeTarget "northcitytools" */;
+			buildPhases = (
+				DB884B77FDE15B84BE4E45B7 /* [CP] Check Pods Manifest.lock */,
+				F73D1AB121C3847B0032AC1A /* Sources */,
+				F73D1AB221C3847B0032AC1A /* Frameworks */,
+				F73D1AB321C3847B0032AC1A /* Resources */,
+				458ED3967667F2EA2F82AF2E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = northcitytools;
+			productName = northcitytools;
+			productReference = F73D1AB521C3847B0032AC1A /* northcitytools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F73D1ACF21C3847C0032AC1A /* northcitytoolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F73D1AE721C3847D0032AC1A /* Build configuration list for PBXNativeTarget "northcitytoolsTests" */;
+			buildPhases = (
+				F73D1ACC21C3847C0032AC1A /* Sources */,
+				F73D1ACD21C3847C0032AC1A /* Frameworks */,
+				F73D1ACE21C3847C0032AC1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F73D1AD221C3847C0032AC1A /* PBXTargetDependency */,
+			);
+			name = northcitytoolsTests;
+			productName = northcitytoolsTests;
+			productReference = F73D1AD021C3847C0032AC1A /* northcitytoolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F73D1ADA21C3847D0032AC1A /* northcitytoolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F73D1AEA21C3847D0032AC1A /* Build configuration list for PBXNativeTarget "northcitytoolsUITests" */;
+			buildPhases = (
+				F73D1AD721C3847D0032AC1A /* Sources */,
+				F73D1AD821C3847D0032AC1A /* Frameworks */,
+				F73D1AD921C3847D0032AC1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F73D1ADD21C3847D0032AC1A /* PBXTargetDependency */,
+			);
+			name = northcitytoolsUITests;
+			productName = northcitytoolsUITests;
+			productReference = F73D1ADB21C3847D0032AC1A /* northcitytoolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F73D1AAD21C3847B0032AC1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = com.beicheng1;
+				TargetAttributes = {
+					F73D1AB421C3847B0032AC1A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F73D1ACF21C3847C0032AC1A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F73D1AB421C3847B0032AC1A;
+					};
+					F73D1ADA21C3847D0032AC1A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F73D1AB421C3847B0032AC1A;
+					};
+				};
+			};
+			buildConfigurationList = F73D1AB021C3847B0032AC1A /* Build configuration list for PBXProject "northcitytools" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F73D1AAC21C3847B0032AC1A;
+			productRefGroup = F73D1AB621C3847B0032AC1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F73D1AB421C3847B0032AC1A /* northcitytools */,
+				F73D1ACF21C3847C0032AC1A /* northcitytoolsTests */,
+				F73D1ADA21C3847D0032AC1A /* northcitytoolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F73D1AB321C3847B0032AC1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1549769721CB6E3500A29910 /* northcityBundle.bundle in Resources */,
+				F73D1AC821C3847C0032AC1A /* LaunchScreen.storyboard in Resources */,
+				F73D1AC521C3847C0032AC1A /* Assets.xcassets in Resources */,
+				F73D1AC021C3847B0032AC1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73D1ACE21C3847C0032AC1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73D1AD921C3847D0032AC1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		458ED3967667F2EA2F82AF2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-northcitytools/Pods-northcitytools-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-northcitytools/Pods-northcitytools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB884B77FDE15B84BE4E45B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-northcitytools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F73D1AB121C3847B0032AC1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73D1AFE21C3A2CF0032AC1A /* BCAppTableViewCell.m in Sources */,
+				1549769021CB5E8200A29910 /* BCAppModel.m in Sources */,
+				1549769421CB5F4C00A29910 /* BCAppViewModel.m in Sources */,
+				F73D1AC321C3847B0032AC1A /* northcitytools.xcdatamodeld in Sources */,
+				F73D1AFB21C3A1AD0032AC1A /* BCCardView.m in Sources */,
+				F73D1ABD21C3847B0032AC1A /* ViewController.m in Sources */,
+				F73D1ACB21C3847C0032AC1A /* main.m in Sources */,
+				F73D1ABA21C3847B0032AC1A /* AppDelegate.m in Sources */,
+				F73D1AEF21C385370032AC1A /* BCAboutMeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73D1ACC21C3847C0032AC1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73D1AD521C3847C0032AC1A /* northcitytoolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73D1AD721C3847D0032AC1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73D1AE021C3847D0032AC1A /* northcitytoolsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F73D1AD221C3847C0032AC1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F73D1AB421C3847B0032AC1A /* northcitytools */;
+			targetProxy = F73D1AD121C3847C0032AC1A /* PBXContainerItemProxy */;
+		};
+		F73D1ADD21C3847D0032AC1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F73D1AB421C3847B0032AC1A /* northcitytools */;
+			targetProxy = F73D1ADC21C3847D0032AC1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F73D1ABE21C3847B0032AC1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F73D1ABF21C3847B0032AC1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F73D1AC621C3847C0032AC1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F73D1AC721C3847C0032AC1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F73D1AE221C3847D0032AC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F73D1AE321C3847D0032AC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F73D1AE521C3847D0032AC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D9424AAFE3C0B6030E022F3 /* Pods-northcitytools.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7C352F4MW;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/northcitytools/BCDefineHeaders/PrefixHeader.pch";
+				INFOPLIST_FILE = northcitytools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenxi.northcitytools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F73D1AE621C3847D0032AC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 552F58774E158BC77338C925 /* Pods-northcitytools.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7C352F4MW;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/northcitytools/BCDefineHeaders/PrefixHeader.pch";
+				INFOPLIST_FILE = northcitytools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenxi.northcitytools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F73D1AE821C3847D0032AC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7C352F4MW;
+				INFOPLIST_FILE = northcitytoolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenxi.sanhangqingshu.northcitytoolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/northcitytools.app/northcitytools";
+			};
+			name = Debug;
+		};
+		F73D1AE921C3847D0032AC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7C352F4MW;
+				INFOPLIST_FILE = northcitytoolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenxi.sanhangqingshu.northcitytoolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/northcitytools.app/northcitytools";
+			};
+			name = Release;
+		};
+		F73D1AEB21C3847D0032AC1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7C352F4MW;
+				INFOPLIST_FILE = northcitytoolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenxi.sanhangqingshu.northcitytoolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = northcitytools;
+			};
+			name = Debug;
+		};
+		F73D1AEC21C3847D0032AC1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7C352F4MW;
+				INFOPLIST_FILE = northcitytoolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenxi.sanhangqingshu.northcitytoolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = northcitytools;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F73D1AB021C3847B0032AC1A /* Build configuration list for PBXProject "northcitytools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73D1AE221C3847D0032AC1A /* Debug */,
+				F73D1AE321C3847D0032AC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F73D1AE421C3847D0032AC1A /* Build configuration list for PBXNativeTarget "northcitytools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73D1AE521C3847D0032AC1A /* Debug */,
+				F73D1AE621C3847D0032AC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F73D1AE721C3847D0032AC1A /* Build configuration list for PBXNativeTarget "northcitytoolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73D1AE821C3847D0032AC1A /* Debug */,
+				F73D1AE921C3847D0032AC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F73D1AEA21C3847D0032AC1A /* Build configuration list for PBXNativeTarget "northcitytoolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F73D1AEB21C3847D0032AC1A /* Debug */,
+				F73D1AEC21C3847D0032AC1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F73D1AC121C3847B0032AC1A /* northcitytools.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F73D1AC221C3847B0032AC1A /* northcitytools.xcdatamodel */,
+			);
+			currentVersion = F73D1AC221C3847B0032AC1A /* northcitytools.xcdatamodel */;
+			path = northcitytools.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F73D1AAD21C3847B0032AC1A /* Project object */;
+}
