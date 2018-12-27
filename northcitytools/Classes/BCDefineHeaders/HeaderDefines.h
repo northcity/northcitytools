@@ -13,7 +13,6 @@
 //第三方库
 
 #import <BmobSDK/Bmob.h>
-#import "YYModel.h"
 #import "SVProgressHUD.h"
 
 //  Color
