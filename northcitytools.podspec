@@ -11,9 +11,9 @@ s.source = { :git => "https://github.com/northcity/northcitytools.git", :tag => 
 s.ios.deployment_target = "9.0"
 
 s.requires_arc = true
-s.source_files = "northcitytools/*.{h,m}"
-s.resources = "northcitytools/*.{bundle}"
-s.public_header_files = 'northcitytools/*.{h}'
+s.source_files = "northcitytools/**/*.{h,m}"
+s.resources = "northcitytools/**/*.{bundle}"
+s.public_header_files = 'northcitytools/**/*.{h}'
 
 s.dependency 'SDWebImage'
 s.dependency 'Masonry'
