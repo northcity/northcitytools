@@ -1,4 +1,4 @@
-platform :ios, '9.3'
+platform :ios, '10.3'
 
 target 'northcitytools' do
   pod 'SDWebImage', '~>3.7.6'

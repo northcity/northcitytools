@@ -8,7 +8,7 @@ s.homepage = "http://www.northcity.top/"
 s.author = { "chenxi" => "506343891@qq.com" }
 s.source = { :git => "https://github.com/northcity/northcitytools.git", :tag => s.version.to_s }
 
-s.ios.deployment_target = "9.0"
+s.ios.deployment_target = "10.3"
 
 s.requires_arc = true
 s.source_files = "northcitytools/**/*.{h,m}"
