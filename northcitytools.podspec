@@ -15,8 +15,10 @@ s.source_files = "northcitytools/*.{h,m}"
 s.resources = "northcitytools/*.{bundle}"
 s.public_header_files = 'northcitytools/*.{h}'
 
-s.dependency 'SDWebImage','Masonry','BmobSDK','SVProgressHUD'
-
+s.dependency 'SDWebImage'
+s.dependency 'Masonry'
+s.dependency 'BmobSDK'
+s.dependency 'SVProgressHUD'
 
 end
 
