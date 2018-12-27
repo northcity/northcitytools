@@ -19,3 +19,4 @@ s.dependency 'SDWebImage','YYModel','Masonry','BmobSDK','SVProgressHUD'
 
 
 end
+
