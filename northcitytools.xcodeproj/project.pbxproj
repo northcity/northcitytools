@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A50B9A9F5AA9FCA3F0CD422 /* Pods_northcitytools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E4170A32FE9C44425A0235 /* Pods_northcitytools.framework */; };
 		15FF589D21CCD9D70068067D /* BCCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FF589021CCD9D70068067D /* BCCardView.m */; };
 		15FF589E21CCD9D70068067D /* BCAppTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FF589221CCD9D70068067D /* BCAppTableViewCell.m */; };
 		15FF589F21CCD9D70068067D /* BCAboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FF589421CCD9D70068067D /* BCAboutMeViewController.m */; };
 		15FF58A021CCD9D70068067D /* BCAppModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FF589721CCD9D70068067D /* BCAppModel.m */; };
 		15FF58A121CCD9D70068067D /* northcityBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 15FF589921CCD9D70068067D /* northcityBundle.bundle */; };
 		15FF58A221CCD9D70068067D /* BCAppViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FF589B21CCD9D70068067D /* BCAppViewModel.m */; };
+		4900AA24FEC833652466C879 /* libPods-northcitytools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD62CEF161BD6DF90842A78A /* libPods-northcitytools.a */; };
 		F73D1ABA21C3847B0032AC1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F73D1AB921C3847B0032AC1A /* AppDelegate.m */; };
 		F73D1ABD21C3847B0032AC1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73D1ABC21C3847B0032AC1A /* ViewController.m */; };
 		F73D1AC021C3847B0032AC1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73D1ABE21C3847B0032AC1A /* Main.storyboard */; };
@@ -59,7 +59,7 @@
 		15FF589C21CCD9D70068067D /* BCAppViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCAppViewModel.h; sourceTree = "<group>"; };
 		2D9424AAFE3C0B6030E022F3 /* Pods-northcitytools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-northcitytools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-northcitytools/Pods-northcitytools.debug.xcconfig"; sourceTree = "<group>"; };
 		552F58774E158BC77338C925 /* Pods-northcitytools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-northcitytools.release.xcconfig"; path = "Pods/Target Support Files/Pods-northcitytools/Pods-northcitytools.release.xcconfig"; sourceTree = "<group>"; };
-		C4E4170A32FE9C44425A0235 /* Pods_northcitytools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_northcitytools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD62CEF161BD6DF90842A78A /* libPods-northcitytools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-northcitytools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73D1AB521C3847B0032AC1A /* northcitytools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = northcitytools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73D1AB821C3847B0032AC1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F73D1AB921C3847B0032AC1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A50B9A9F5AA9FCA3F0CD422 /* Pods_northcitytools.framework in Frameworks */,
+				4900AA24FEC833652466C879 /* libPods-northcitytools.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,7 +161,7 @@
 		5DA2943577EDEF5DA209725F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C4E4170A32FE9C44425A0235 /* Pods_northcitytools.framework */,
+				AD62CEF161BD6DF90842A78A /* libPods-northcitytools.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -244,7 +244,7 @@
 				F73D1AB121C3847B0032AC1A /* Sources */,
 				F73D1AB221C3847B0032AC1A /* Frameworks */,
 				F73D1AB321C3847B0032AC1A /* Resources */,
-				458ED3967667F2EA2F82AF2E /* [CP] Embed Pods Frameworks */,
+				7F88EBF85C9FFE2ADFF892AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -362,26 +362,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		458ED3967667F2EA2F82AF2E /* [CP] Embed Pods Frameworks */ = {
+		7F88EBF85C9FFE2ADFF892AC /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-northcitytools/Pods-northcitytools-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			inputFileListPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-northcitytools/Pods-northcitytools-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-northcitytools/Pods-northcitytools-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-northcitytools/Pods-northcitytools-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DB884B77FDE15B84BE4E45B7 /* [CP] Check Pods Manifest.lock */ = {
