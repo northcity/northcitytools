@@ -14,6 +14,7 @@ s.requires_arc = true
 s.source_files = "northcitytools/**/*.{h,m}"
 s.resources = "northcitytools/**/*.{bundle}"
 s.public_header_files = 'northcitytools/**/*.{h}'
+s.prefix_header_file = 'northcitytools/**/PrefixHeader.pch'
 
 s.dependency 'SDWebImage', '~>3.7.6'
 s.dependency 'Masonry', '~>1.0.0'
