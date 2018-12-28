@@ -11,7 +11,7 @@ s.source = { :git => "https://github.com/northcity/northcitytools.git", :tag => 
 s.ios.deployment_target = "10.3"
 
 s.requires_arc = true 
-s.prefix_header_file = "northcitytools/northcitytools/Classes/BCDefineHeaders/PrefixHeader.pch"
+s.prefix_header_file = "northcitytools/Classes/BCDefineHeaders/PrefixHeader.pch"
 s.source_files = "northcitytools/**/*.{h,m}"
 s.resources = "northcitytools/**/*.{bundle}"
 s.public_header_files = 'northcitytools/**/*.{h}'
