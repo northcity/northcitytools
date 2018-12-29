@@ -8,6 +8,8 @@
 
 #import "BCAppViewModel.h"
 #import "BCAppModel.h"
+#import "SVProgressHUD.h"
+#import <BmobSDK/Bmob.h>
 
 @implementation BCAppViewModel
 

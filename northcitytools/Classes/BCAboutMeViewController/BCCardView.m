@@ -6,6 +6,31 @@
 //  Copyright © 2018年 com.beicheng1. All rights reserved.
 //
 
+
+// *  iPhoneX判断
+
+#ifndef PNCisIPHONEX
+#define PNCisIPHONEX  ((CGRectGetHeight([[UIScreen mainScreen] bounds]) >=812.0f)? (YES):(NO))
+#endif
+//定义屏幕宽度
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+//定义屏幕高度
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+//#pragma mark ====== 适配 ======
+
+#define KAUTOSIZE(_wid,_hei)   CGSizeMake(_wid * ScreenWidth / 375.0, _hei * ScreenHeight / 667.0)
+#define kAUTOWIDTH(_wid)  _wid * ScreenWidth / 375.0
+#define kAUTOHEIGHT(_hei)      (PNCisIPHONEX ? _hei * 1 : _hei * ScreenHeight / 667.0)
+
+// *    @brief    RGB颜色.
+// */
+#define PNCColor(r,g,b) PNCColorRGBA(r,g,b,1.0)
+
+/**
+ *    @brief    RGBA颜色.
+ */
+#define PNCColorRGBA(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
+
 #import "BCCardView.h"
 
 

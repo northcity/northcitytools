@@ -1,30 +1,20 @@
 PODS:
   - BmobSDK (2.3.1)
-  - Masonry (1.0.2)
-  - SDWebImage (3.7.6):
-    - SDWebImage/Core (= 3.7.6)
-  - SDWebImage/Core (3.7.6)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
   - BmobSDK (~> 2.3.1)
-  - Masonry (~> 1.0.0)
-  - SDWebImage (~> 3.7.6)
   - SVProgressHUD (~> 2.2.5)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - BmobSDK
-    - Masonry
-    - SDWebImage
     - SVProgressHUD
 
 SPEC CHECKSUMS:
   BmobSDK: e0f9e4b451233a80af63a8ae4f2d239474bf567b
-  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
-  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 9670cc84d5c7bf0e8e2279da6a3676d31fcbe61f
+PODFILE CHECKSUM: 778b480bd2ea7d27eef0008a010d7928a1b7d26a
 
 COCOAPODS: 1.5.3

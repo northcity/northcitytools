@@ -43,9 +43,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15FF588C21CCD9D70068067D /* BCHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCHeader.h; sourceTree = "<group>"; };
-		15FF588D21CCD9D70068067D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		15FF588E21CCD9D70068067D /* HeaderDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderDefines.h; sourceTree = "<group>"; };
 		15FF589021CCD9D70068067D /* BCCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCCardView.m; sourceTree = "<group>"; };
 		15FF589121CCD9D70068067D /* BCAboutMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCAboutMeViewController.h; sourceTree = "<group>"; };
 		15FF589221CCD9D70068067D /* BCAppTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCAppTableViewCell.m; sourceTree = "<group>"; };
@@ -108,31 +105,20 @@
 		15FF588A21CCD9D70068067D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				15FF588B21CCD9D70068067D /* BCDefineHeaders */,
 				15FF588F21CCD9D70068067D /* BCAboutMeViewController */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		15FF588B21CCD9D70068067D /* BCDefineHeaders */ = {
-			isa = PBXGroup;
-			children = (
-				15FF588C21CCD9D70068067D /* BCHeader.h */,
-				15FF588D21CCD9D70068067D /* PrefixHeader.pch */,
-				15FF588E21CCD9D70068067D /* HeaderDefines.h */,
-			);
-			path = BCDefineHeaders;
-			sourceTree = "<group>";
-		};
 		15FF588F21CCD9D70068067D /* BCAboutMeViewController */ = {
 			isa = PBXGroup;
 			children = (
-				15FF589021CCD9D70068067D /* BCCardView.m */,
-				15FF589121CCD9D70068067D /* BCAboutMeViewController.h */,
-				15FF589221CCD9D70068067D /* BCAppTableViewCell.m */,
 				15FF589321CCD9D70068067D /* BCAppTableViewCell.h */,
+				15FF589221CCD9D70068067D /* BCAppTableViewCell.m */,
+				15FF589121CCD9D70068067D /* BCAboutMeViewController.h */,
 				15FF589421CCD9D70068067D /* BCAboutMeViewController.m */,
 				15FF589521CCD9D70068067D /* BCCardView.h */,
+				15FF589021CCD9D70068067D /* BCCardView.m */,
 				15FF589621CCD9D70068067D /* BCAppModel */,
 				15FF589921CCD9D70068067D /* northcityBundle.bundle */,
 				15FF589A21CCD9D70068067D /* BCAppViewModel */,
@@ -367,15 +353,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-northcitytools/Pods-northcitytools-resources.sh",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
@@ -589,7 +571,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F7C352F4MW;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/northcitytools/Classes/BCDefineHeaders/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = northcitytools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -608,7 +590,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F7C352F4MW;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/northcitytools/Classes/BCDefineHeaders/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = northcitytools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
