@@ -74,6 +74,7 @@
 		F73D1ADB21C3847D0032AC1A /* northcitytoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = northcitytoolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73D1ADF21C3847D0032AC1A /* northcitytoolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = northcitytoolsUITests.m; sourceTree = "<group>"; };
 		F73D1AE121C3847D0032AC1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7482C4C21D7BAC9008521D3 /* BCHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +106,7 @@
 		15FF588A21CCD9D70068067D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F7482C4B21D7BAC9008521D3 /* BCDefineHeaders */,
 				15FF588F21CCD9D70068067D /* BCAboutMeViewController */,
 			);
 			path = Classes;
@@ -217,6 +219,14 @@
 				F73D1AE121C3847D0032AC1A /* Info.plist */,
 			);
 			path = northcitytoolsUITests;
+			sourceTree = "<group>";
+		};
+		F7482C4B21D7BAC9008521D3 /* BCDefineHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				F7482C4C21D7BAC9008521D3 /* BCHeader.h */,
+			);
+			path = BCDefineHeaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

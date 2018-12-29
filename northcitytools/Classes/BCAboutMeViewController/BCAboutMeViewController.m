@@ -8,24 +8,25 @@
 
 // *  iPhoneX判断
 
-#ifndef PNCisIPHONEX
-#define PNCisIPHONEX  ((CGRectGetHeight([[UIScreen mainScreen] bounds]) >=812.0f)? (YES):(NO))
-#endif
-//定义屏幕宽度
-#define ScreenWidth [UIScreen mainScreen].bounds.size.width
-//定义屏幕高度
-#define ScreenHeight [UIScreen mainScreen].bounds.size.height
-//#pragma mark ====== 适配 ======
-
-#define KAUTOSIZE(_wid,_hei)   CGSizeMake(_wid * ScreenWidth / 375.0, _hei * ScreenHeight / 667.0)
-#define kAUTOWIDTH(_wid)  _wid * ScreenWidth / 375.0
-#define kAUTOHEIGHT(_hei)      (PNCisIPHONEX ? _hei * 1 : _hei * ScreenHeight / 667.0)
+//#ifndef PNCisIPHONEX
+//#define PNCisIPHONEX  ((CGRectGetHeight([[UIScreen mainScreen] bounds]) >=812.0f)? (YES):(NO))
+//#endif
+////定义屏幕宽度
+//#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+////定义屏幕高度
+//#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+////#pragma mark ====== 适配 ======
+//
+//#define KAUTOSIZE(_wid,_hei)   CGSizeMake(_wid * ScreenWidth / 375.0, _hei * ScreenHeight / 667.0)
+//#define kAUTOWIDTH(_wid)  _wid * ScreenWidth / 375.0
+//#define kAUTOHEIGHT(_hei)      (PNCisIPHONEX ? _hei * 1 : _hei * ScreenHeight / 667.0)
 
 
 #import "BCAboutMeViewController.h"
 #import "BCCardView.h"
 #import "BCAppTableViewCell.h"
 #import "BCAppViewModel.h"
+#import "BCHeader.h"
 
 @interface BCAboutMeViewController ()<UITableViewDelegate,UITableViewDataSource>
 
