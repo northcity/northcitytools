@@ -139,7 +139,7 @@
 - (void)setCellContentWithModel:(BCAppModel *)model{
     _appNameLabel.text = model.appName;
     _appDetailNameLabel.text = model.appDetailName;
-    _appIconImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@",model.appIconName]];
+    _appIconImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"northcityBundle.bundle/%@",model.appIconName]];
     _appVersionLabel.text = [NSString stringWithFormat:@"Version : %@",model.appVersion];
     //判断本地是否有App
     NSURL * myURL_APP_A = [NSURL URLWithString: [NSString stringWithFormat:@"%@://",model.appUrlScheme]];

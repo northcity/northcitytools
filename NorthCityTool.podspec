@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NorthCityTool'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = '北城的工具'
 
 # This description is used to generate tags and improve search results.
@@ -26,10 +26,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'NorthCityTool/Classes/**/*'
-  
-  s.resource_bundles = {
-   'NorthCityTool' => ['NorthCityTool/Assets/*.png']
-  }
+  s.resources    = 'NorthCityTool/northcityBundle.bundle'
 
   s.dependency    'BmobSDK'
   s.dependency    'SVProgressHUD'
