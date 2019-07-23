@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source_files = 'NorthCityTool/Classes/**/*'
   
   s.resource_bundles = {
-   'NorthCityTool' => ['NorthCityTool/northcityBundle.bundle/*[!.plist]']
+   'NorthCityTool' => ['NorthCityTool/Assets/*.png']
   }
 
   s.dependency    'BmobSDK'

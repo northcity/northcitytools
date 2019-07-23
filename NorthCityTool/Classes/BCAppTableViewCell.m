@@ -21,7 +21,7 @@
 }
 
 - (void)initSubview{
-    
+
     _appIconImageView = [[UIImageView alloc]initWithFrame:CGRectMake((20), NC_kAUTOWIDTH(20), NC_kAUTOWIDTH(60), NC_kAUTOWIDTH(60))];
     //    iconImage.image = [UIImage imageNamed:@"iconcheng"];
     [self.contentView addSubview:_appIconImageView];
@@ -38,19 +38,19 @@
     _appIconLayer.shadowOpacity = 0.6f;
     _appIconLayer.shadowRadius = 8;
     [self.contentView.layer insertSublayer:_appIconLayer below:_appIconImageView.layer];
-    
+
     _appNameLabel = [[UILabel alloc]initWithFrame:CGRectMake(CGRectGetMaxX(_appIconImageView.frame) + NC_kAUTOWIDTH(20),NC_kAUTOWIDTH(25),NC_kAUTOWIDTH(150),NC_kAUTOWIDTH(25))];
     _appNameLabel.font = [UIFont fontWithName:@"Avenir-Medium" size:15];
     _appNameLabel.textAlignment = NSTextAlignmentLeft;
     _appNameLabel.textColor = [UIColor blackColor];
     [self.contentView addSubview:_appNameLabel];
-    
+
     _appDetailNameLabel = [[UILabel alloc]initWithFrame:CGRectMake(CGRectGetMaxX(_appIconImageView.frame) + NC_kAUTOWIDTH(20),CGRectGetMaxY(_appNameLabel.frame) + NC_kAUTOWIDTH(5),NC_kAUTOWIDTH(150),NC_kAUTOWIDTH(18))];
     _appDetailNameLabel.font = [UIFont fontWithName:@"HeiTi SC" size:12];
     _appDetailNameLabel.textAlignment = NSTextAlignmentLeft;
     _appDetailNameLabel.textColor = [UIColor grayColor];
     [self.contentView addSubview:_appDetailNameLabel];
-    
+
     _getButton = [UIButton buttonWithType:UIButtonTypeCustom];
     _getButton.frame = CGRectMake(ScreenWidth - NC_kAUTOWIDTH(98), NC_kAUTOWIDTH(35), NC_kAUTOWIDTH(70), NC_kAUTOWIDTH(30));
     [_getButton setBackgroundColor:NC_PNCColorRGBA(238, 241, 249, 1)];
@@ -58,12 +58,12 @@
     [_getButton setTitle:@"获取" forState:UIControlStateNormal];
     _getButton.titleLabel.font = [UIFont boldSystemFontOfSize:13.f];
     [_getButton addTarget:self action:@selector(awakeOrGetApp) forControlEvents:UIControlEventTouchUpInside];
-    
+
     [self.contentView addSubview: _getButton];
     _getButton.layer.masksToBounds = YES;
     _getButton.layer.cornerRadius = NC_kAUTOWIDTH(15);
     NSLog(@"===%@===",[self getCurrentAppUrlScheme]);
-    
+
     _appVersionLabel = [[UILabel alloc]initWithFrame:CGRectMake(CGRectGetMinX(_getButton.frame),CGRectGetMaxY(_getButton.frame),NC_kAUTOWIDTH(70),NC_kAUTOWIDTH(15))];
     _appVersionLabel.font = [UIFont fontWithName:@"HeiTi SC" size:8];
     _appVersionLabel.textAlignment = NSTextAlignmentCenter;
@@ -72,7 +72,7 @@
 }
 
 - (void)awakeOrGetApp{
-    
+
     //判断是否是自己
     NSString *getCurrentAppScheme = [self getCurrentAppUrlScheme];
     //    如果本地scheme和其中一个数据的一样，说明是本身App，按钮变为去评价和获取。
@@ -125,7 +125,7 @@
     NSDictionary *infoDic = [[NSBundle mainBundle] infoDictionary];
     NSDictionary *bundleUrltypes = [[infoDic objectForKey:@"CFBundleURLTypes"] firstObject];
     NSString *urlSchemes = [NSString stringWithFormat:@"%@",[bundleUrltypes objectForKey:@"CFBundleURLSchemes"]];
-    
+
     if ([urlSchemes containsString:@"("] || [urlSchemes containsString:@")"] || [urlSchemes containsString:@"\n"] || [urlSchemes containsString:@" "]) {
         urlSchemes = [urlSchemes stringByReplacingOccurrencesOfString:@" " withString:@""];
         urlSchemes = [urlSchemes stringByReplacingOccurrencesOfString:@"\n" withString:@""];
@@ -139,12 +139,12 @@
 - (void)setCellContentWithModel:(BCAppModel *)model{
     _appNameLabel.text = model.appName;
     _appDetailNameLabel.text = model.appDetailName;
-    _appIconImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"northcityBundle.bundle/%@",model.appIconName]];
+    _appIconImageView.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@",model.appIconName]];
     _appVersionLabel.text = [NSString stringWithFormat:@"Version : %@",model.appVersion];
     //判断本地是否有App
     NSURL * myURL_APP_A = [NSURL URLWithString: [NSString stringWithFormat:@"%@://",model.appUrlScheme]];
     NSString *getCurrentAppScheme = [self getCurrentAppUrlScheme];
-    
+
     //    如果本地scheme和其中一个数据的一样，说明是本身App，按钮变为去评价和获取。
     if ([getCurrentAppScheme containsString:model.appUrlScheme]) {
         if ([[UIApplication sharedApplication] canOpenURL:myURL_APP_A]) {
@@ -184,7 +184,7 @@
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
-    
+
     NSLog(@"1");
     // Configure the view for the selected state
 }
