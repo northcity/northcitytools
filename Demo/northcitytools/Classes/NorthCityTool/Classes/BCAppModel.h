@@ -18,5 +18,6 @@
 
 @property (nonatomic, copy) NSString *appUrlScheme;
 @property (nonatomic, copy) NSString *appid;
+@property (nonatomic, copy) NSString *shunxu;
 
 @end

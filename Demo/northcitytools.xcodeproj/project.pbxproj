@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15FF589D21CCD9D70068067D /* BCCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FF589021CCD9D70068067D /* BCCardView.m */; };
-		15FF589E21CCD9D70068067D /* BCAppTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FF589221CCD9D70068067D /* BCAppTableViewCell.m */; };
-		15FF589F21CCD9D70068067D /* BCAboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FF589421CCD9D70068067D /* BCAboutMeViewController.m */; };
-		15FF58A021CCD9D70068067D /* BCAppModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FF589721CCD9D70068067D /* BCAppModel.m */; };
-		15FF58A121CCD9D70068067D /* northcityBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 15FF589921CCD9D70068067D /* northcityBundle.bundle */; };
-		15FF58A221CCD9D70068067D /* BCAppViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 15FF589B21CCD9D70068067D /* BCAppViewModel.m */; };
 		4900AA24FEC833652466C879 /* libPods-northcitytools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD62CEF161BD6DF90842A78A /* libPods-northcitytools.a */; };
+		599E9ACA22E8026C000AC6CC /* BCCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 599E9ABE22E8026C000AC6CC /* BCCardView.m */; };
+		599E9ACB22E8026C000AC6CC /* BCAppTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 599E9AC022E8026C000AC6CC /* BCAppTableViewCell.m */; };
+		599E9ACC22E8026C000AC6CC /* BCAppModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 599E9AC122E8026C000AC6CC /* BCAppModel.m */; };
+		599E9ACD22E8026C000AC6CC /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 599E9AC222E8026C000AC6CC /* .gitkeep */; };
+		599E9ACE22E8026C000AC6CC /* BCAppViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 599E9AC322E8026C000AC6CC /* BCAppViewModel.m */; };
+		599E9ACF22E8026C000AC6CC /* BCAboutMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599E9AC522E8026C000AC6CC /* BCAboutMeViewController.m */; };
+		599E9AD022E8026C000AC6CC /* northcityBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 599E9AC922E8026C000AC6CC /* northcityBundle.bundle */; };
 		F73D1ABA21C3847B0032AC1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F73D1AB921C3847B0032AC1A /* AppDelegate.m */; };
 		F73D1ABD21C3847B0032AC1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F73D1ABC21C3847B0032AC1A /* ViewController.m */; };
 		F73D1AC021C3847B0032AC1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73D1ABE21C3847B0032AC1A /* Main.storyboard */; };
@@ -43,19 +44,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15FF589021CCD9D70068067D /* BCCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCCardView.m; sourceTree = "<group>"; };
-		15FF589121CCD9D70068067D /* BCAboutMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCAboutMeViewController.h; sourceTree = "<group>"; };
-		15FF589221CCD9D70068067D /* BCAppTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCAppTableViewCell.m; sourceTree = "<group>"; };
-		15FF589321CCD9D70068067D /* BCAppTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCAppTableViewCell.h; sourceTree = "<group>"; };
-		15FF589421CCD9D70068067D /* BCAboutMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCAboutMeViewController.m; sourceTree = "<group>"; };
-		15FF589521CCD9D70068067D /* BCCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCCardView.h; sourceTree = "<group>"; };
-		15FF589721CCD9D70068067D /* BCAppModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCAppModel.m; sourceTree = "<group>"; };
-		15FF589821CCD9D70068067D /* BCAppModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCAppModel.h; sourceTree = "<group>"; };
-		15FF589921CCD9D70068067D /* northcityBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = northcityBundle.bundle; sourceTree = "<group>"; };
-		15FF589B21CCD9D70068067D /* BCAppViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCAppViewModel.m; sourceTree = "<group>"; };
-		15FF589C21CCD9D70068067D /* BCAppViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCAppViewModel.h; sourceTree = "<group>"; };
 		2D9424AAFE3C0B6030E022F3 /* Pods-northcitytools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-northcitytools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-northcitytools/Pods-northcitytools.debug.xcconfig"; sourceTree = "<group>"; };
 		552F58774E158BC77338C925 /* Pods-northcitytools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-northcitytools.release.xcconfig"; path = "Pods/Target Support Files/Pods-northcitytools/Pods-northcitytools.release.xcconfig"; sourceTree = "<group>"; };
+		599E9ABE22E8026C000AC6CC /* BCCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCCardView.m; sourceTree = "<group>"; };
+		599E9ABF22E8026C000AC6CC /* BCAboutMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCAboutMeViewController.h; sourceTree = "<group>"; };
+		599E9AC022E8026C000AC6CC /* BCAppTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCAppTableViewCell.m; sourceTree = "<group>"; };
+		599E9AC122E8026C000AC6CC /* BCAppModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCAppModel.m; sourceTree = "<group>"; };
+		599E9AC222E8026C000AC6CC /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		599E9AC322E8026C000AC6CC /* BCAppViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCAppViewModel.m; sourceTree = "<group>"; };
+		599E9AC422E8026C000AC6CC /* BCAppTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCAppTableViewCell.h; sourceTree = "<group>"; };
+		599E9AC522E8026C000AC6CC /* BCAboutMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCAboutMeViewController.m; sourceTree = "<group>"; };
+		599E9AC622E8026C000AC6CC /* BCCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCCardView.h; sourceTree = "<group>"; };
+		599E9AC722E8026C000AC6CC /* BCAppViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCAppViewModel.h; sourceTree = "<group>"; };
+		599E9AC822E8026C000AC6CC /* BCAppModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCAppModel.h; sourceTree = "<group>"; };
+		599E9AC922E8026C000AC6CC /* northcityBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = northcityBundle.bundle; sourceTree = "<group>"; };
 		AD62CEF161BD6DF90842A78A /* libPods-northcitytools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-northcitytools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73D1AB521C3847B0032AC1A /* northcitytools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = northcitytools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73D1AB821C3847B0032AC1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,43 +107,36 @@
 		15FF588A21CCD9D70068067D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				15FF588F21CCD9D70068067D /* BCAboutMeViewController */,
+				599E9ABC22E8026C000AC6CC /* NorthCityTool */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		15FF588F21CCD9D70068067D /* BCAboutMeViewController */ = {
+		599E9ABC22E8026C000AC6CC /* NorthCityTool */ = {
 			isa = PBXGroup;
 			children = (
-				15FF589321CCD9D70068067D /* BCAppTableViewCell.h */,
-				15FF589221CCD9D70068067D /* BCAppTableViewCell.m */,
-				15FF589121CCD9D70068067D /* BCAboutMeViewController.h */,
-				15FF589421CCD9D70068067D /* BCAboutMeViewController.m */,
-				15FF589521CCD9D70068067D /* BCCardView.h */,
-				15FF589021CCD9D70068067D /* BCCardView.m */,
-				15FF589621CCD9D70068067D /* BCAppModel */,
-				15FF589921CCD9D70068067D /* northcityBundle.bundle */,
-				15FF589A21CCD9D70068067D /* BCAppViewModel */,
+				599E9ABD22E8026C000AC6CC /* Classes */,
+				599E9AC922E8026C000AC6CC /* northcityBundle.bundle */,
 			);
-			path = BCAboutMeViewController;
+			path = NorthCityTool;
 			sourceTree = "<group>";
 		};
-		15FF589621CCD9D70068067D /* BCAppModel */ = {
+		599E9ABD22E8026C000AC6CC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				15FF589721CCD9D70068067D /* BCAppModel.m */,
-				15FF589821CCD9D70068067D /* BCAppModel.h */,
+				599E9ABE22E8026C000AC6CC /* BCCardView.m */,
+				599E9ABF22E8026C000AC6CC /* BCAboutMeViewController.h */,
+				599E9AC022E8026C000AC6CC /* BCAppTableViewCell.m */,
+				599E9AC122E8026C000AC6CC /* BCAppModel.m */,
+				599E9AC222E8026C000AC6CC /* .gitkeep */,
+				599E9AC322E8026C000AC6CC /* BCAppViewModel.m */,
+				599E9AC422E8026C000AC6CC /* BCAppTableViewCell.h */,
+				599E9AC522E8026C000AC6CC /* BCAboutMeViewController.m */,
+				599E9AC622E8026C000AC6CC /* BCCardView.h */,
+				599E9AC722E8026C000AC6CC /* BCAppViewModel.h */,
+				599E9AC822E8026C000AC6CC /* BCAppModel.h */,
 			);
-			path = BCAppModel;
-			sourceTree = "<group>";
-		};
-		15FF589A21CCD9D70068067D /* BCAppViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				15FF589B21CCD9D70068067D /* BCAppViewModel.m */,
-				15FF589C21CCD9D70068067D /* BCAppViewModel.h */,
-			);
-			path = BCAppViewModel;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		5DA2943577EDEF5DA209725F /* Frameworks */ = {
@@ -324,10 +319,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15FF58A121CCD9D70068067D /* northcityBundle.bundle in Resources */,
 				F73D1AC821C3847C0032AC1A /* LaunchScreen.storyboard in Resources */,
 				F73D1AC521C3847C0032AC1A /* Assets.xcassets in Resources */,
+				599E9AD022E8026C000AC6CC /* northcityBundle.bundle in Resources */,
 				F73D1AC021C3847B0032AC1A /* Main.storyboard in Resources */,
+				599E9ACD22E8026C000AC6CC /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,15 +387,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15FF589E21CCD9D70068067D /* BCAppTableViewCell.m in Sources */,
-				15FF589D21CCD9D70068067D /* BCCardView.m in Sources */,
-				15FF58A221CCD9D70068067D /* BCAppViewModel.m in Sources */,
+				599E9ACB22E8026C000AC6CC /* BCAppTableViewCell.m in Sources */,
+				599E9ACA22E8026C000AC6CC /* BCCardView.m in Sources */,
 				F73D1AC321C3847B0032AC1A /* northcitytools.xcdatamodeld in Sources */,
 				F73D1ABD21C3847B0032AC1A /* ViewController.m in Sources */,
 				F73D1ACB21C3847C0032AC1A /* main.m in Sources */,
+				599E9ACE22E8026C000AC6CC /* BCAppViewModel.m in Sources */,
+				599E9ACF22E8026C000AC6CC /* BCAboutMeViewController.m in Sources */,
 				F73D1ABA21C3847B0032AC1A /* AppDelegate.m in Sources */,
-				15FF58A021CCD9D70068067D /* BCAppModel.m in Sources */,
-				15FF589F21CCD9D70068067D /* BCAboutMeViewController.m in Sources */,
+				599E9ACC22E8026C000AC6CC /* BCAppModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,6 @@
 #import "BCCardView.h"
 #import "BCAppTableViewCell.h"
 #import "BCAppViewModel.h"
-//#import "BCHeader.h"
 
 @interface BCAboutMeViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -34,11 +33,10 @@
 
 - (void)createBackButton{
     _backButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    _backButton.frame = CGRectMake(NC_kAUTOWIDTH(15), NC_kAUTOWIDTH(20), NC_kAUTOWIDTH(20), NC_kAUTOWIDTH(20));
+    _backButton.frame = CGRectMake(NC_kAUTOWIDTH(15), NC_kAUTOWIDTH(30), NC_kAUTOWIDTH(20), NC_kAUTOWIDTH(20));
     if (PNCisIPHONEX) {
-        _backButton.frame = CGRectMake(NC_kAUTOWIDTH(15), NC_kAUTOWIDTH(27), NC_kAUTOWIDTH(20), NC_kAUTOWIDTH(20));
+        _backButton.frame = CGRectMake(NC_kAUTOWIDTH(15), NC_kAUTOWIDTH(42), NC_kAUTOWIDTH(20), NC_kAUTOWIDTH(20));
     }
-//    _backButton.backgroundColor = [UIColor redColor];
     [_backButton setBackgroundImage:[UIImage imageNamed:@"northcityBundle.bundle/guanbi"] forState:UIControlStateNormal];
     _backButton.layer.cornerRadius = NC_kAUTOWIDTH(15);
     [_backButton addTarget:self action:@selector(dismissVc) forControlEvents:UIControlEventTouchUpInside];
@@ -67,7 +65,7 @@
     self.myTableView.delegate = self;
     self.myTableView.dataSource = self;
     [self.myTableView registerClass:[BCAppTableViewCell class] forCellReuseIdentifier:@"BCAPPCELL"];
-    
+
     if (@available(iOS 11.0, *)) {
         self.myTableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
     } else {
@@ -76,13 +74,13 @@
     self.myTableView.estimatedRowHeight = 0;
     self.myTableView.estimatedSectionHeaderHeight = 0;
     self.myTableView.estimatedSectionFooterHeight = 0;
-    
+
     self.bcCardView = [[BCCardView alloc]initWithFrame:CGRectMake(0, 0, ScreenWidth, NC_kAUTOWIDTH(284))];
     self.myTableView.tableHeaderView = self.bcCardView;
     self.bcCardView.blogButtonClickBlock = ^{
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.northcity.top/"]options:@{} completionHandler:nil];
     };
-    
+
 }
 
 
@@ -116,6 +114,11 @@
     } completion:nil];
 
 }
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

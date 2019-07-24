@@ -18,6 +18,10 @@
 #ifndef PNCisIPHONEX
 #define PNCisIPHONEX  ((CGRectGetHeight([[UIScreen mainScreen] bounds]) >=812.0f)? (YES):(NO))
 #endif
+
+#ifndef PNCisIPAD
+#define PNCisIPAD  ([[UIDevice currentDevice].model isEqualToString:@"iPad"]? (YES):(NO))
+#endif
 @interface BCCardView : UIView
 
 @property (nonatomic, copy) dispatch_block_t  blogButtonClickBlock;
