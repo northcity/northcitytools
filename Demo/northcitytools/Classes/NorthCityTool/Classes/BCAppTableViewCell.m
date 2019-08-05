@@ -96,6 +96,8 @@
             [self openAppWithAppID:@"1468999931"];
         }else if ([self.model.appUrlScheme isEqualToString:@"comchenxiliulangshiren"]){
             [self openAppWithAppID:@"1450722748"];
+        }else if ([self.model.appUrlScheme isEqualToString:@"comchenxishijianguihuaju"]){
+            [self openAppWithAppID:@"1445103466"];
         }
         else if ([self.model.appUrlScheme isEqualToString:@"sinaweibo"]){
             NSString *customURL = @"sinaweibo://userinfo?uid=5227295178";
